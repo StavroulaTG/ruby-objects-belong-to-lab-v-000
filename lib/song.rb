@@ -1,7 +1,3 @@
 class Song
-  attr_accessor :title
-
-  def artist
-    @title << @artist
-  end
+  attr_accessor :title, :artist
 end
